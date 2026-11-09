@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reamogetse Mogotsi | Web Developer</title>title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">RM</a>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Reamogetse Mogotsi</h1>
+        <h2 class="hero-title">
+          <span class="typed-text" id="typed-text"></span
+          ><span class="cursor">|</span>
+        </h2>
+        <p class="hero-description">
+          AWS re/Start graduate and BSc Informatics student at Unisa. I build
+          full-stack web apps and AI-powered tools, and I'm eager to bring my
+          skills into a real-world tech environment.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a
+            href="https://github.com/Reamogetse12"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="mailto:mogotsireamogetse@gmail.com"
+            aria-label="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="avatar-placeholder">
+          <img src="assets/images/profile.jpg" alt="Reamogetse Mogotsi" class="profile-photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I'm an AWS re/Start graduate and BSc Informatics student at the
+              University of South Africa (Unisa). I build full-stack web
+              applications and AI-powered tools, with a solid foundation in
+              HTML, CSS, Angular, TypeScript, Python, and MySQL.
+            </p>
+            <p>
+              I completed AWS re/Start in 2025, where I worked with Linux
+              environments, cloud platforms, and applied AWS best practices.
+              My academic focus covers Programming Logic, Systems Analysis,
+              Database Management, and Business Intelligence.
+            </p>
+            <p>
+              I'm actively looking for my first professional opportunity where
+              I can grow, contribute, and keep learning every day.
+            </p>
+            <a href="REAMOGETSE MOGOTSI CV.pdf" class="btn btn-primary" download="Reamogetse_Mogotsi_CV.pdf"
+              ><i class="fas fa-download"></i> Download CV</a
+            >
+          </div>
+          <div class="about-cards">
+            <div class="info-card">
+              <i class="fas fa-graduation-cap"></i>
+              <h3>Education</h3>
+              <p>BSc Informatics — Unisa</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Location</h3>
+              <p>Mabopane, Gauteng</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-briefcase"></i>
+              <h3>Availability</h3>
+              <p>Open to Work</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-coffee"></i>
+              <h3>Interests</h3>
+              <p>Open Source, UI/UX, AI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">Angular</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Backend</h3>
+            <div class="skill-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">REST API</span>
+              <span class="tag">JWT</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>AI / ML</h3>
+            <div class="skill-tags">
+              <span class="tag">LangChain</span>
+              <span class="tag">Groq</span>
+              <span class="tag">OpenAI</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Database</h3>
+            <div class="skill-tags">
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Angular CLI</span>
+              <span class="tag">AWS</span>
+              <span class="tag">Linux</span>
+              <span class="tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- Food Webpage Project -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-utensils"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="https://github.com/Reamogetse12/food_webpage" target="_blank" rel="noopener" class="overlay-btn"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://reamogetse12.github.io/food_webpage/" target="_blank" rel="noopener" class="overlay-btn"
+                  ><i class="fas fa-external-link-alt"></i> Live</a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>D'LICIOUS Fast Food</h3>
+              <p>
+                A full-stack fast food web app built with Angular. Browse the menu,
+                place orders, and enjoy a smooth, responsive experience.
+              </p>
+              <div class="project-tags">
+                <span class="tag tag-sm">Angular</span>
+                <span class="tag tag-sm">TypeScript</span>
+                <span class="tag tag-sm">CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Reamogetse12/food_webpage" target="_blank" rel="noopener" class="project-link-btn"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://reamogetse12.github.io/food_webpage/" target="_blank" rel="noopener" class="project-link-btn project-link-demo"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Chatbot Project -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="project-overlay">
+                <a href="https://github.com/Reamogetse12/chatbot" target="_blank" rel="noopener" class="overlay-btn"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://reamogetse12.github.io/chatbot/" target="_blank" rel="noopener" class="overlay-btn"
+                  ><i class="fas fa-external-link-alt"></i> Live</a
+                >
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>AI Study Mate Chatbot</h3>
+              <p>
+                An AI-powered study assistant built with Python and LangChain. It never gives direct answers —
+                it explains concepts, gives practice exercises, and guides you with hints until you understand.
+              </p>
+              <div class="project-tags">
+                <span class="tag tag-sm">Python</span>
+                <span class="tag tag-sm">LangChain</span>
+                <span class="tag tag-sm">Groq</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Reamogetse12/chatbot" target="_blank" rel="noopener" class="project-link-btn"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                <a href="https://reamogetse12.github.io/chatbot/" target="_blank" rel="noopener" class="project-link-btn project-link-demo"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          I'm currently open to new opportunities. Whether you have a question
+          or just want to say hi, my inbox is always open!
+        </p>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>Email</h3>
+                <a href="mailto:mogotsireamogetse@gmail.com">mogotsireamogetse@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/Reamogetse12" target="_blank" rel="noopener"
+                  >github.com/Reamogetse12</a
+                >
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+                autocomplete="name"
+              />
+              <span class="error-msg" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+                autocomplete="email"
+              />
+              <span class="error-msg" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="What would you like to say?"
+                required
+              ></textarea>
+              <span class="error-msg" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-success" id="form-success" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Designed &amp; Built by <strong>Reamogetse Mogotsi</strong> &copy;
+          <span id="year"></span>
+        </p>
+        <div class="footer-socials">
+          <a href="https://github.com/Reamogetse12" target="_blank" rel="noopener" aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:mogotsireamogetse@gmail.com" aria-label="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
